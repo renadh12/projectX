@@ -57,6 +57,6 @@ This project serves as an end-to-end template for Data/ML engineering using PySp
 
 #### Goal
 
-The goal of this project is the work on any given data engineering project, dockerize and deploy it in quick, seamless steps. After you're done with the Validation step, you can refactor the Python code, use a different dataset, employ a ML model that serves your requirements and then follow the same exact steps to dockerize and deploy your project to a Kubernetes cluster on Azure.
+The goal of this project is to work on any given data engineering project, dockerize and deploy it in quick, seamless steps. After you're done with the Validation step, you can refactor the Python code, use a different dataset, employ a ML model that serves your requirements and then follow the same exact steps to dockerize and deploy your project to a Kubernetes cluster on Azure.
 
 
