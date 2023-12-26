@@ -38,7 +38,7 @@ This project serves as an end-to-end template for Data/ML engineering using PySp
     - `az acr login --name <container-registry-resource-name>`
   - Build and push your image to Azure Container Registry
     - `docker login`
-    - `cd <project-directory>
+    - `cd <project-directory>`
     - `docker build --no-cache -t <container-registry-resource-name>.azurecr.io/<app-name>:<tag> .`
     - Example: `docker build --no-cache -t kubspark.azurecr.io/spark-app:latest .`
     - `docker push kubspark.azurecr.io/spark-app:latest`
