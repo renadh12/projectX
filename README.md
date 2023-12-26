@@ -18,7 +18,7 @@ This project serves as an end-to-end template for Data/ML engineering using PySp
 #### Dockerization:
 
 - ##### Dockerfile:
-  - Reference the provided Dockerfile to create your own Docker to package Python Spark code, any dataset in csv format, and requirements.txt.
+  - Reference the provided Dockerfile to create your own to package Python Spark code, any dataset in csv format, and requirements.txt.
 - #### Azure Container Registry (ACR):
   - Build and push your Docker image to Azure Container Registry. [Pre-req: Create an account on Azure](https://go.microsoft.com/fwlink/?linkid=2227353&clcid=0x409&l=en-us&srcurl=https%3A%2F%2Fazure.microsoft.com%2Ffree)
 
