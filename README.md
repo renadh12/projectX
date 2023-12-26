@@ -1,5 +1,5 @@
 # projectX
-PySpark ML Engineering Template with Docker and Kubernetes Deployment
+PySpark project deployed Kubernetes cluster
 
 Overview:
 This project serves as an end-to-end template for Data/ML engineering using PySpark, Docker, and Kubernetes on Azure. It processes datasets, trains and evaluates a PySpark ML Regression model, dockerizes the Python code, and deploys it to an Azure Kubernetes Services (AKS) cluster.
