@@ -23,7 +23,7 @@ This project serves as an end-to-end template for Data/ML engineering using PySp
   -  On Azure CLI or Portal, create a new resource Azure Kubernetes Services cluster
   -  Grab the API Server address from the Kubernetes service page on the portal
   -  Update line 96 in the Python Spark code
-    -  `spark_session = SparkSession.builder.appName("SparkMLPipeline").config("spark.kubernetes.master", "k8s://https:<API-SERVER-ADDRESS>").getOrCreate()` [Note: This needs to be completed before Dockerization step]
+ `spark_session = SparkSession.builder.appName("SparkMLPipeline").config("spark.kubernetes.master", "k8s://https:<API-SERVER-ADDRESS>").getOrCreate()` [Note: This needs to be completed before Dockerization step]
     -  This will help Spark to connect to the Kubernetes cluster when it creates a Spark session
   -  Subscribe to the cluster: `az account set --subscription <subscription-id>`
   -  Download cluster credentials: `az aks get-credentials --resource-group <RESOURCE-GROUP-NAME> --name <cluster-name>`
