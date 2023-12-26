@@ -132,9 +132,8 @@ if __name__ == "__main__":
     indx_output_cols = ["sex_indexed","smoker_indexed","day_indexed","time_indexed"]
 
     # snowflake_options = {
-    #     "sfURL": "BO48159.snowflakecomputing.com",
+    #     "sfURL": "<>.snowflakecomputing.com",
     #     "sfUser": "rnadh",
-    #     "sfPassword": "Kirkland!12",
     #     "sfDatabase": "SNOWFLAKE_SAMPLE_DATA",
     #     "sfWarehouse": "SPARK_POC",
     #     "sfSchema": "PUBLIC",
