@@ -1,21 +1,26 @@
 # projectX
 ## End to End Data/ML Engineering Project using PySpark, Kubernetes, Docker and Azure
 
-Overview:
+### Overview:
 This project serves as an end-to-end template for Data/ML engineering using PySpark, Docker, and Kubernetes on Azure. It processes datasets, trains and evaluates a PySpark ML Regression model, dockerizes the Python code, and deploys it to an Azure Kubernetes Services (AKS) cluster.
 
-Key Features:
+### Key Features:
 
-Data Processing:
+#### PySpark Data Processing:
 
-Utilizes PySpark ML features like StringIndexer and VectorAssembler for dataset processing.
-Model Training and Evaluation:
+- Utilizes PySpark ML features like StringIndexer and VectorAssembler for dataset processing.
 
-Employs PySpark ML Regression to predict total bills.
-Evaluates model performance using key metrics: coefficients, intercept, R-squared, Mean Absolute Error, and Mean Squared Error.
-Dockerization:
+#### PySpark Model Training and Evaluation:
 
-Dockerfile:
-Creates a Dockerfile for packaging Python code, tips.csv dataset, and requirements.txt.
-Azure Container Registry (ACR):
-Builds and pushes the Docker image to Azure Container Registry.
+- Employs PySpark ML Regression to predict total bills for each customer.
+- Evaluates model performance using key metrics: coefficients, intercept, R-squared, Mean Absolute Error, and Mean Squared Error.
+
+#### Dockerization:
+
+- ##### Dockerfile:
+  - Reference the provided Dockerfile to create your own Docker to package Python Spark code, any dataset in csv format, and requirements.txt.
+- #### Azure Container Registry (ACR):
+  - Build and push your Docker image to Azure Container Registry. [Pre-req: Create an account on Azure](https://go.microsoft.com/fwlink/?linkid=2227353&clcid=0x409&l=en-us&srcurl=https%3A%2F%2Fazure.microsoft.com%2Ffree)
+
+#### Deployment using Kubernetes
+
