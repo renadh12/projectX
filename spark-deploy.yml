@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: spark-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: spark-app
+  template:
+    metadata:
+      labels:
+        app: spark-app
+    spec:
+      containers:
+      - name: spark-app
+        image: kubspark.azurecr.io/spark-app:latest
+        ports:
+        - containerPort: 4040
+        env:
+        - name: SPARK_LOCAL_IP
+          value: "0.0.0.0"
+        # Add other environment variables as needed
+      imagePullSecrets:
+      - name: acr-secret
