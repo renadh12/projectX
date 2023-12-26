@@ -45,7 +45,7 @@ This project serves as an end-to-end template for Data/ML engineering using PySp
 
 #### Deployment using Kubernetes
 - Reference the provided Kubernetes deployment file and only update the values where you see `spark-app` with your specified project name and update the container image name accordingly (`<container-registry-resource-name>.azurecr.io/<app-name>:<tag>`)
-- Once the file has been updated, run the following command to deploy your pushed imgage in the container registry to the kubernetes cluster
+- Once the file has been updated, run the following command to deploy your pushed image from the container registry to the kubernetes cluster
   - `kubectl apply -f spark-deploy.yml`
  
 #### Validation
